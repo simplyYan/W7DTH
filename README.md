@@ -16,7 +16,7 @@ https://github.com/NervousGroove/W7DTH/wiki/Documentation
 ## 🎯 Main features
 - **Easy:** W7DTH is extremely easy to use and learn.
 
-- **Reliable:** Our library uses SHA-256 encryption, and allows you to treat data in your own way. W7DTH is extremely secure for any type of information.
+- **Reliable:** Our library uses AES encryption, and allows you to treat data in your own way. W7DTH is extremely secure for any type of information.
 
 - **Lightweight:** Its high speed is the result of its lightness, which is why W7DTH is a solid choice for any project. For those looking for security, reliability and efficiency, but at the same time want something light, fast and easy, the W7DTH is the best choice.
 
