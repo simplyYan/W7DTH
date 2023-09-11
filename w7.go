@@ -1,4 +1,4 @@
-package w7dth
+package w7
 
 import (
 	"crypto/aes"
@@ -9,15 +9,15 @@ import (
 	"io"
 )
 
-type W7DTH struct {
+type W7 struct {
 	key []byte
 }
 
-func New() *W7DTH {
-	return &W7DTH{}
+func New() *W7 {
+	return &W7{}
 }
 
-func (w *W7DTH) Key(generate string) (string, error) {
+func (w *W7) Key(generate string) (string, error) {
 	if generate == "generate" {
 		key := make([]byte, 32)
 		_, err := rand.Read(key)
@@ -35,7 +35,7 @@ func (w *W7DTH) Key(generate string) (string, error) {
 	return generate, nil
 }
 
-func (w *W7DTH) Encrypt(data string) (string, error) {
+func (w *W7) Encrypt(data string) (string, error) {
 	block, err := aes.NewCipher(w.key)
 	if err != nil {
 		return "", err
@@ -52,7 +52,7 @@ func (w *W7DTH) Encrypt(data string) (string, error) {
 	return hex.EncodeToString(ciphertext), nil
 }
 
-func (w *W7DTH) Decrypt(data string) (string, error) {
+func (w *W7) Decrypt(data string) (string, error) {
 	ciphertext, err := hex.DecodeString(data)
 	if err != nil {
 		return "", err
