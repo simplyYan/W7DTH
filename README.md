@@ -8,7 +8,7 @@ go get github.com/simplyYan/W7DTH
 ```
 
 ## 📖 DOCUMENTATION
-You can access the documentation by [clicking here](https://github.com/NervousGroove/W7DTH/wiki/Documentation) or by going to:
+You can access the documentation by [clicking here](https://github.com/simplyYan/W7DTH/wiki/Documentation) or by going to:
 ```bash
 https://github.com/simplyYan/W7DTH/wiki/Documentation
 ```
