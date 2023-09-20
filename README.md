@@ -4,7 +4,7 @@ W7DTH is an encryption library for Go, designed to be easy, fast, lightweight an
 ## 📦 How to download
 You can use "go get" to install W7DTH in your Go project. To do this, make sure you already have a module (go mod). You can download it using the command:
 ```bash
-go get github.com/simplyYan/W7DTH
+go get -u github.com/simplyYan/W7DTH
 ```
 
 ## 📖 DOCUMENTATION
